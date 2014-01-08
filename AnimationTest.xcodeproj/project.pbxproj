@@ -21,6 +21,7 @@
 		D2982BE8187B4EF4004E8886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982BCA187B4EF4004E8886 /* UIKit.framework */; };
 		D2982BF0187B4EF4004E8886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2982BEE187B4EF4004E8886 /* InfoPlist.strings */; };
 		D2982BF2187B4EF4004E8886 /* AnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982BF1187B4EF4004E8886 /* AnimationTestTests.m */; };
+		D2982BFD187B5050004E8886 /* Apple_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D2982BFC187B5050004E8886 /* Apple_Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D2982BED187B4EF4004E8886 /* AnimationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationTestTests-Info.plist"; sourceTree = "<group>"; };
 		D2982BEF187B4EF4004E8886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2982BF1187B4EF4004E8886 /* AnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTestTests.m; sourceTree = "<group>"; };
+		D2982BFC187B5050004E8886 /* Apple_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Apple_Logo.png; path = Resources/Apple_Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		D2982BBA187B4EF4004E8886 = {
 			isa = PBXGroup;
 			children = (
+				D2982BFB187B503F004E8886 /* Resources */,
 				D2982BCC187B4EF4004E8886 /* AnimationTest */,
 				D2982BEB187B4EF4004E8886 /* AnimationTestTests */,
 				D2982BC5187B4EF4004E8886 /* Frameworks */,
@@ -150,6 +153,14 @@
 				D2982BEE187B4EF4004E8886 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2982BFB187B503F004E8886 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2982BFC187B5050004E8886 /* Apple_Logo.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 				D2982BDF187B4EF4004E8886 /* Images.xcassets in Resources */,
 				D2982BD1187B4EF4004E8886 /* InfoPlist.strings in Resources */,
 				D2982BDA187B4EF4004E8886 /* Main.storyboard in Resources */,
+				D2982BFD187B5050004E8886 /* Apple_Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
